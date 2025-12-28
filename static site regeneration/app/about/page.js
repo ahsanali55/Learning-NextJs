@@ -1,17 +1,17 @@
 import Link from "next/link";
 
-const Home = () => {
+const About = () => {
   return (
     <>
       <nav>
         <ul className="navbar">
           <li>
-            <Link href="/" className="nav-link active">
+            <Link href="/" className="nav-link">
               Home
             </Link>
           </li>
           <li>
-            <Link href="/about" className="nav-link">
+            <Link href="/about" className="nav-link active">
               About
             </Link>
           </li>
@@ -20,19 +20,14 @@ const Home = () => {
               Services
             </Link>
           </li>
-          <li>
-            <Link href="/blogs" className="nav-link">
-              Blog
-            </Link>
-          </li>
         </ul>
       </nav>
       <div>
-        <h1>Home Page</h1>
-        <p>Welcome to our website!</p>
+        <h1>About Us</h1>
+        <p>We are a company dedicated to providing quality services.</p>
       </div>
     </>
   );
 };
 
-export default Home;
+export default About;
