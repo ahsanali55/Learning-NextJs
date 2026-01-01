@@ -11,7 +11,7 @@ const Blog = async ({ params }) => {
   const randomNumber = Math.random();
   console.log(randomNumber)
   if (randomNumber > 0.5) {
-    throw new Error("Error occured ")
+    throw new Error("Error occured at page.js inside the blogID")
   }
 
 

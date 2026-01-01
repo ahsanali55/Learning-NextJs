@@ -5,9 +5,7 @@ import { startTransition } from "react";
 
 export default function Error({ error, reset }) {
   const router = useRouter();
-  // console.log(error)
-  // console.log(error.digest)
-  // console.log(error.message)
+  
   return (
     <div>
       <h1>Something went wrong</h1>
